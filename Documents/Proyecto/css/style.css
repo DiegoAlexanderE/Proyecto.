@@ -72,6 +72,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     background-image: url("imagen.webp");
+    background-image: url(b.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
