@@ -1,5 +1,5 @@
 .jhonbro{
-    background-image: url(/Documents/Proyecto/images/registro.jpg);
+    background-image: url("/Documents/Proyecto/images/registro.jpg");
 }
 
 h1 {
@@ -91,6 +91,7 @@ section {
     position: relative;
     max-width: 400px;
     background-color: transparent;
+    border: transparent;
     border-radius: 20px;
     backdrop-filter: blur(55px);
     display: flex;
