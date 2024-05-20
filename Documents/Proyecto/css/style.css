@@ -91,7 +91,6 @@ section {
     position: relative;
     max-width: 400px;
     background-color: transparent;
-    border: 1px solid black;
     border-radius: 20px;
     backdrop-filter: blur(55px);
     display: flex;
@@ -140,4 +139,21 @@ button:hover {
     color: #fff;
     display: flex;
     justify-content: space-between;
+}
+
+.lascucardas {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
 }
