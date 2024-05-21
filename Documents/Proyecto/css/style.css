@@ -39,9 +39,9 @@ input:valid ~ label {
 }
 
 .forget a {
-    color: #fff;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
+    display: inline-block;
 }
 
 .forget a:hover {
@@ -79,8 +79,21 @@ body {
     background-size: cover;
 }
 
+a {
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.gradient-text {
+    background: rgb(56, 3, 56);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
 section {
-    background-image: url();
+    background-image: none;
     background-size: cover;
     background-position: center;
     padding-top: 200px;
